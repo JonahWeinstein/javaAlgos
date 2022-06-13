@@ -1,0 +1,553 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch NaturalMergeSort",
+            "request": "launch",
+            "mainClass": "src.sorting.NaturalMergeSort",
+            "projectName": "javaProjects_e3f902f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestThread",
+            "request": "launch",
+            "mainClass": "src.practice.TestThread",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch LookupIndex",
+            "request": "launch",
+            "mainClass": "src.searching.LookupIndex",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearProbingST",
+            "request": "launch",
+            "mainClass": "src.searching.LinearProbingST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeperateChainingHashST",
+            "request": "launch",
+            "mainClass": "src.searching.SeperateChainingHashST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPQ",
+            "request": "launch",
+            "mainClass": "src.MaxPQ",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSelect",
+            "request": "launch",
+            "mainClass": "src.QuickSelect",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaturalMergeSort",
+            "request": "launch",
+            "mainClass": "src.sorting.NaturalMergeSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch BUMergeSort",
+            "request": "launch",
+            "mainClass": "src.sorting.BUMergeSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "src.searching.BST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch RedBlackBST",
+            "request": "launch",
+            "mainClass": "RedBlackBST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSelect",
+            "request": "launch",
+            "mainClass": "QuickSelect",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPQ",
+            "request": "launch",
+            "mainClass": "MaxPQ",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkList",
+            "request": "launch",
+            "mainClass": "ReverseLinkList",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearProbingST",
+            "request": "launch",
+            "mainClass": "LinearProbingST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "BST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch RedBlackBST",
+            "request": "launch",
+            "mainClass": "src.main.searching.RedBlackBST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch IterativeBST",
+            "request": "launch",
+            "mainClass": "src.main.searching.IterativeBST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "src.main.searching.BST",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringFrequency",
+            "request": "launch",
+            "mainClass": "src.main.sorting.sortingProbs.stringFrequency",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch printCompoudWords",
+            "request": "launch",
+            "mainClass": "src.main.sorting.sortingProbs.printCompoudWords",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinPQ",
+            "request": "launch",
+            "mainClass": "src.main.sorting.MinPQ",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSortTemp",
+            "request": "launch",
+            "mainClass": "src.main.sorting.QuickSortTemp",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "src.main.sorting.GFG",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick3WayPart",
+            "request": "launch",
+            "mainClass": "src.main.sorting.Quick3WayPart",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSort",
+            "request": "launch",
+            "mainClass": "src.main.sorting.HeapSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPQ",
+            "request": "launch",
+            "mainClass": "src.main.MaxPQ",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPQ",
+            "request": "launch",
+            "mainClass": "src.main.sorting.MaxPQ",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch DualPivotQuickSort",
+            "request": "launch",
+            "mainClass": "src.main.sorting.DualPivotQuickSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch DualPartQuickSort",
+            "request": "launch",
+            "mainClass": "src.main.sorting.DualPartQuickSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "src.main.sorting.InsertionSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch BentlyMcIlroy",
+            "request": "launch",
+            "mainClass": "src.main.sorting.BentlyMcIlroy",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch temp",
+            "request": "launch",
+            "mainClass": "src.main.sorting.temp",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick3Way",
+            "request": "launch",
+            "mainClass": "src.main.sorting.Quick3Way",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaturalMergeSortv2",
+            "request": "launch",
+            "mainClass": "src.main.sorting.NaturalMergeSortv2",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaturalMergeSort",
+            "request": "launch",
+            "mainClass": "src.main.sorting.NaturalMergeSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortCompare",
+            "request": "launch",
+            "mainClass": "src.main.sorting.SortCompare",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "src.main.sorting.QuickSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDMergeSortv1",
+            "request": "launch",
+            "mainClass": "src.main.sorting.TDMergeSortv1",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDMergeSortv2",
+            "request": "launch",
+            "mainClass": "src.main.sorting.TDMergeSortv2",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch whocares",
+            "request": "launch",
+            "mainClass": "src.main.whocares",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSelect",
+            "request": "launch",
+            "mainClass": "src.main.QuickSelect",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick3Sort",
+            "request": "launch",
+            "mainClass": "src.main.Quick3Sort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "src.main.QuickSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch linkedListSortv2",
+            "request": "launch",
+            "mainClass": "src.main.linkedListSortv2",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedList",
+            "request": "launch",
+            "mainClass": "src.main.LinkedList",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListSort",
+            "request": "launch",
+            "mainClass": "src.main.LinkedListSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaturalMergeSortv2",
+            "request": "launch",
+            "mainClass": "src.main.NaturalMergeSortv2",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaturalMergeSort",
+            "request": "launch",
+            "mainClass": "src.main.NaturalMergeSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDMergeSortv2",
+            "request": "launch",
+            "mainClass": "src.main.TDMergeSortv2",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDMergeSortv1",
+            "request": "launch",
+            "mainClass": "src.main.TDMergeSortv1",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch TDMergeSort",
+            "request": "launch",
+            "mainClass": "src.main.TDMergeSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch BUMergeSort",
+            "request": "launch",
+            "mainClass": "src.main.BUMergeSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "src.main.MergeSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStdDraw",
+            "request": "launch",
+            "mainClass": "src.main.TestStdDraw",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShellSort",
+            "request": "launch",
+            "mainClass": "src.main.ShellSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortCompare",
+            "request": "launch",
+            "mainClass": "src.main.SortCompare",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "src.main.SelectionSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "src.main.InsertionSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch selectionSort",
+            "request": "launch",
+            "mainClass": "src.main.selectionSort",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClosestPair1D",
+            "request": "launch",
+            "mainClass": "src.main.ClosestPair1D",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "src.main.dequeProb.Permutation",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomizedQueue",
+            "request": "launch",
+            "mainClass": "src.main.dequeProb.RandomizedQueue",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayQueue",
+            "request": "launch",
+            "mainClass": "src.main.ArrayQueue",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Deque",
+            "request": "launch",
+            "mainClass": "src.main.dequeProb.Deque",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayQueue",
+            "request": "launch",
+            "mainClass": "ArrayQueue",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch IterableLinkedStack",
+            "request": "launch",
+            "mainClass": "IterableLinkedStack",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdIn",
+            "request": "launch",
+            "mainClass": "StdIn",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdOut",
+            "request": "launch",
+            "mainClass": "StdOut",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayStackOfStrings",
+            "request": "launch",
+            "mainClass": "src.main.ArrayStackOfStrings",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Deque",
+            "request": "launch",
+            "mainClass": "src.main.DequeProb.Deque",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "src.main.DequeProb.Permutation",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedQueue",
+            "request": "launch",
+            "mainClass": "src.main.LinkedQueue",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rational",
+            "request": "launch",
+            "mainClass": "src.main.Rational",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch Percolation",
+            "request": "launch",
+            "mainClass": "src.main.percolationProblem.Percolation",
+            "projectName": "javaProjects_99325062"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnionFind",
+            "request": "launch",
+            "mainClass": "src.main.percolationProblem.UnionFind",
+            "projectName": "javaProjects_99325062"
+        }
+    ]
+}
