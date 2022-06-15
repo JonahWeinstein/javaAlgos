@@ -22,6 +22,7 @@ public class TrieST<Value> {
         return size(root);
     }
     // lazy size method, eager method would keep track of size as ST changes
+    // very eager method would have size for all subtries
     private int size(Node x) {
         if(x == null) return 0;
         
@@ -67,6 +68,31 @@ public class TrieST<Value> {
         // will ultimately return root
         return x;
 
+    }
+    
+    public void delete(String key) {
+        root = delete(root, key, 0);
+    }
+
+    private Node delete(Node x, String key, int d) {
+        // basically using get implementation to find key
+        if (x == null) return null;
+        if ( d == key.length()) x.val = null;
+        else {
+            char c = key.charAt(d);
+            // recursively go tthrough trie to find key
+            x.next[c] = delete(x.next[c], key, d + 1);
+        }
+        // now working back up the trie
+
+        // if x has a value we need to keep it in the trie
+        if (x.val != null) return x;
+
+        // see if x has any non null children ( and only keep it if it does)
+        for (char c = 0; c < R; c++) {
+            if ( x.next[c] != null) return x;
+        }
+        return null;
     }
     public Iterable<String> keys() {
         return keysWithPrefix("");
@@ -128,6 +154,8 @@ public String longestPrefixOf(String s)
         test.put("by", 20);
         System.out.println("keys with prefix \"sh\":" + test.keysWithPrefix("sh") + "\n");
         System.out.println("keys with prefix \"she\":" +test.longestPrefixOf("she") + "\n");
+        test.delete("she");
+        System.out.println("keys with prefix \"sh\":" + test.keysWithPrefix("sh") + "\n");
 
     }
 
