@@ -32,7 +32,7 @@ public class KMPSearch {
             X = dfa[pat.charAt(j)][X];
         }
     }
-
+    // returns index of pattern match in txt or -1 if no match found
     public int search(String txt) {
         // simulate operation of DFA on text
         int i, j, N = txt.length(), M = pat.length();
@@ -44,6 +44,12 @@ public class KMPSearch {
         if (j == M) return i - M;
         // pattern wasn't found
         else return -1;
+    }
+
+    public static void main(String[] args) {
+        KMPSearch test = new KMPSearch("hello");
+        String in = "ahflanvlauiehellabjsbekhejauhelloahaooher";
+        System.out.println(test.search(in));
     }
 
 
