@@ -2,11 +2,9 @@
 This substring search algorithm is based on hashing. It computes a hash value for the pattern
 in the constructor, then searches through the text looking for a hash match.
 
-Monte-Carlo version (no explicit match checking) runs in guaranteed linear time with a tiny 
-probability of being incorrect
-
-Las Vegas version (with explicit match checking) is guanranteed to be right with a 
-tiny probability it runs in NM time (otherwise it will be linear)
+The Monte Carlo version of Rabin-Karp substring search is linear-time and extremely likely to 
+be correct, and the Las Vegas version of Rabin-Karp substring search is correct and extremely 
+likely to be linear-time (very small chance it is same as brute force (NM time)).
  */
 
 public class RabinKarp {
@@ -18,7 +16,7 @@ public class RabinKarp {
     // len of pat
     private int M;
     // a large prime
-    private int Q;
+    private long Q;
     // size of alphabet
     private int R = 256;
     // R^(M-1) % Q

@@ -1,10 +1,10 @@
-package src.searching;
+package searching;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.LinkedList;
 
-import src.tools.StdRandom;
+import tools.StdRandom;
 
 public class LinearProbingST<Key, Value>{
 

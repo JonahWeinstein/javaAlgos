@@ -1,4 +1,4 @@
-package src.tools;
+package tools;
 
 /******************************************************************************
  *  Compilation:  javac StdDraw.java

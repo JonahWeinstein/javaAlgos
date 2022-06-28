@@ -1,4 +1,4 @@
-package src.fundamentals;
+package fundamentals;
 import java.util.Iterator;
 
 public class IterableLinkedStack<Item> implements Iterable<Item>{

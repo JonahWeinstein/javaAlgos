@@ -1,4 +1,4 @@
-package src.searching;
+package searching;
 import java.util.Queue;
 import java.util.LinkedList;
 
@@ -172,7 +172,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         return keys(min(), max());
     }
     public Iterable<Key> keys(Key lo, Key hi){
-        Queue<Key> queue = new LinkedList<Key>();  //why is this being weird
+        Queue<Key> queue = new LinkedList<Key>();  //queue is an interface 
         keys(root, queue, lo, hi);
         return queue;
     }

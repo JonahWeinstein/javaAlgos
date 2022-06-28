@@ -1,5 +1,5 @@
-package src.fundamentals.dequeProb;
-import src.tools.*;
+package fundamentals.dequeProb;
+import tools.*;
 /*import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;*/
 

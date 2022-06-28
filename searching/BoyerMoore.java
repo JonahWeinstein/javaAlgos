@@ -1,3 +1,4 @@
+package searching;
 /*
 The constructor in this substring search algorithm builds a table giving the rightmost 
 occurrence in the pattern of each possible character. The search method scans from right to

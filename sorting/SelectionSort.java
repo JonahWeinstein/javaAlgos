@@ -1,4 +1,4 @@
-package src.sorting;
+package sorting;
 import java.lang.Comparable;
 
 public class SelectionSort {

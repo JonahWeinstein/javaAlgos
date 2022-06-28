@@ -11,7 +11,7 @@
  *
  ******************************************************************************/
 
-package src.tools;
+package tools;
 
 /**
  *  The {@code Stopwatch} data type is for measuring

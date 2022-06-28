@@ -1,4 +1,4 @@
-package src.searching;
+package searching;
 
 public class SeperateChainingHashST<Key, Value> {
     private int M = 5;  //number of indices (number of seperate chains)

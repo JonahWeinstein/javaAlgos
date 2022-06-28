@@ -1,4 +1,4 @@
-package src.tools;
+package tools;
 /******************************************************************************
  *  Compilation:  javac StdOut.java
  *  Execution:    java StdOut

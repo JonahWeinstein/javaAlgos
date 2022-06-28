@@ -1,6 +1,6 @@
-package src.fundamentals.dequeProb;
+package fundamentals.dequeProb;
 import java.util.Iterator;
-import src.tools.*;
+import tools.*;
 /*import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;*/

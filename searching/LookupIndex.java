@@ -1,4 +1,4 @@
-package src.searching;
+package searching;
 
 import java.util.Hashtable;
 import java.util.LinkedList;

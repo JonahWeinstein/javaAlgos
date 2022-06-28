@@ -1,4 +1,4 @@
-package src.sorting.sortingProbs;
+package sorting.sortingProbs;
 
 
 import java.util.Arrays;

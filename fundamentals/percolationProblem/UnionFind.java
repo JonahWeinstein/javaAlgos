@@ -1,4 +1,4 @@
-package src.fundamentals.percolationProblem;
+package fundamentals.percolationProblem;
 
 public class UnionFind{
     public int[] id;

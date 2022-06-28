@@ -1,4 +1,4 @@
-package src.searching;
+package searching;
 public class IterativeBST<Key extends Comparable<Key>, Value> {
 
     private Node root;

@@ -1,4 +1,4 @@
-package src.practice;
+package practice;
 
 public class ThreadDemo extends Thread {
     private Thread t;

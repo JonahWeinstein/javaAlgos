@@ -2,7 +2,7 @@ package searching;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// R-Trie for storing strings (which is why we don;t need Key generic)
+// R-Trie for storing strings (which is why we don't need Key generic)
 // each node implicitly represents one character (except root) and 
 // has R links, where R is size of alphabet
 

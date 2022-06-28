@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DirectedDFS",
+            "request": "launch",
+            "mainClass": "graphs.DirectedDFS",
+            "projectName": "javaAlgos_33e43ceb"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepthFirstPaths",
+            "request": "launch",
+            "mainClass": "graphs.DepthFirstPaths",
+            "projectName": "javaAlgos_33e43ceb"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "searching.BST",
+            "projectName": "javaAlgos_33e43ceb"
+        },
+        {
+            "type": "java",
             "name": "Launch TrieST",
             "request": "launch",
             "mainClass": "searching.TrieST",
@@ -15,7 +36,7 @@
             "type": "java",
             "name": "Launch NaturalMergeSort",
             "request": "launch",
-            "mainClass": "src.sorting.NaturalMergeSort",
+            "mainClass": "sorting.NaturalMergeSort",
             "projectName": "javaProjects_e3f902f"
         },
         {
@@ -29,21 +50,21 @@
             "type": "java",
             "name": "Launch LookupIndex",
             "request": "launch",
-            "mainClass": "src.searching.LookupIndex",
+            "mainClass": "searching.LookupIndex",
             "projectName": "javaProjects_99325062"
         },
         {
             "type": "java",
             "name": "Launch LinearProbingST",
             "request": "launch",
-            "mainClass": "src.searching.LinearProbingST",
+            "mainClass": "searching.LinearProbingST",
             "projectName": "javaProjects_99325062"
         },
         {
             "type": "java",
             "name": "Launch SeperateChainingHashST",
             "request": "launch",
-            "mainClass": "src.searching.SeperateChainingHashST",
+            "mainClass": "searching.SeperateChainingHashST",
             "projectName": "javaProjects_99325062"
         },
         {
@@ -64,21 +85,21 @@
             "type": "java",
             "name": "Launch NaturalMergeSort",
             "request": "launch",
-            "mainClass": "src.sorting.NaturalMergeSort",
+            "mainClass": "sorting.NaturalMergeSort",
             "projectName": "javaProjects_99325062"
         },
         {
             "type": "java",
             "name": "Launch BUMergeSort",
             "request": "launch",
-            "mainClass": "src.sorting.BUMergeSort",
+            "mainClass": "sorting.BUMergeSort",
             "projectName": "javaProjects_99325062"
         },
         {
             "type": "java",
             "name": "Launch BST",
             "request": "launch",
-            "mainClass": "src.searching.BST",
+            "mainClass": "searching.BST",
             "projectName": "javaProjects_99325062"
         },
         {

@@ -1,7 +1,7 @@
 package src;
 
-import src.tools.*;
-import src.sorting.QuickSort;
+import tools.*;
+import sorting.QuickSort;
 
 public class QuickSelect {
 

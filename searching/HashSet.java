@@ -1,4 +1,4 @@
-package src.searching;
+package searching;
 
 
 

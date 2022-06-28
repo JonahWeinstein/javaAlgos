@@ -1,4 +1,4 @@
-package src.searching;
+package searching;
 
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
     private Key[] keys;

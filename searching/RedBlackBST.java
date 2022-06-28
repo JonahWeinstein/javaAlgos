@@ -1,4 +1,4 @@
-package src.searching;
+package searching;
 
 public class RedBlackBST<Key extends Comparable<Key>, Value> {
 

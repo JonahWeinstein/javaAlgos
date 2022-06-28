@@ -1,6 +1,6 @@
-package src.sorting;
+package sorting;
 
-import src.tools.*;
+import tools.*;
 
 public class DualPivotQuickSort {
 

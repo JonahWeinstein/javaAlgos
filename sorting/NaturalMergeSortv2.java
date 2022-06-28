@@ -1,5 +1,5 @@
-package src.sorting;
-import  src.tools.*;
+package sorting;
+import  tools.*;
 
 public class NaturalMergeSortv2 {
         private static Comparable[] b;      // temp array

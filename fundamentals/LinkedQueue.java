@@ -1,4 +1,4 @@
-package src.fundamentals;
+package fundamentals;
 import java.util.Scanner;
 import java.io.FileReader;
 import java.util.Iterator;

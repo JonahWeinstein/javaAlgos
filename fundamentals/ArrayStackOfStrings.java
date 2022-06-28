@@ -1,4 +1,4 @@
-package src.fundamentals;
+package fundamentals;
 
 
 public class ArrayStackOfStrings{
