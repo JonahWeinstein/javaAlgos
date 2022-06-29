@@ -1,6 +1,6 @@
 package graphs;
 
-// Is graph G acyclic? Assumes no self loops or parrallel edges
+// Is undirected graph G acyclic? Assumes no self loops or parrallel edges
 // the idea is to check if a marked node is the one that we just came from, if not there is a cycle
 public class DFSCycles {
     private boolean[] marked;

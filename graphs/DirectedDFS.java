@@ -17,7 +17,7 @@ public class DirectedDFS {
         marked = new boolean[G.V()];
         dfs(G, s);
     }
-
+    // takes multiple source vertices (int) and returns all vertices reachable from that set
     public DirectedDFS(Digraph G, Iterable<Integer> sources) {
         marked = new boolean[G.V()];
         for (int s : sources)
