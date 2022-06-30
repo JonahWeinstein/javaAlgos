@@ -3,13 +3,13 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Stack;
 
-/*
- This class enables clients to iterate through the vertices in various orders defined by 
- depth-first search. This ability is very useful in the development of advanced 
- digraph-processing algorithms, because the recursive nature of the search enables us to 
- prove properties of the computation.
+/**
+ * {@code DepthFirstOrder } class enables clients to iterate through the vertices in various orders defined by 
+ * depth-first search. This ability is very useful in the development of advanced 
+ * digraph-processing algorithms, because the recursive nature of the search enables us to 
+ * prove properties of the computation.
 
- Topological sort is represented by reverse post order
+ * Topological sort is represented by reverse post order
 
  */
 
