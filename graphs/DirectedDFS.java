@@ -3,8 +3,8 @@ package graphs;
 import tools.In;
 import tools.StdOut;
 
-/*
- This implementation of depth-first search provides clients the ability 
+/**
+ {@code DirectedDFS} (Directed Depth First Search) provides clients the ability 
  to test which vertices are reachable from a given vertex or a given set of vertices.
 
  */

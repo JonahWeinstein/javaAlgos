@@ -1,7 +1,11 @@
 package graphs;
 
-// Is undirected graph G acyclic? Assumes no self loops or parrallel edges
-// the idea is to check if a marked node is the one that we just came from, if not there is a cycle
+/**
+ * {@code DFSCycles} determines if a graph has cycles by checking if already 
+ * marked adjacaent vertices are different from the current (meaning there is another path to them
+ * and therefore a cycle)
+ * 
+ */
 public class DFSCycles {
     private boolean[] marked;
     private boolean hasCycle;

@@ -1,7 +1,11 @@
 package graphs;
 
 import java.util.Stack;
-
+/**
+ * {@code DirectedCycle} determines if a cycle is present in a digraph by keeping track of
+ * vertices currently in the call stack. For any current vertex, if it has an adjacent vertex that is already
+ * in the call stack that means there must be a cycle.
+ */
 public class DirectedCycle {
 
     private boolean[] marked;

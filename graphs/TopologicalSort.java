@@ -1,7 +1,8 @@
 package graphs;
 
-/*  this algorithm first checks that Digraph G is a DAG (Directed Acyclic Graph) using DirectedCycle.java 
-to find any cycles. If no cycles are found it then uses DepthFirstOrder to find the reversePost 
+/**
+ {@code TopologicalSort} first checks that Digraph G is a DAG (Directed Acyclic Graph) using {@link DirectedCycle}.java 
+to find any cycles. If no cycles are found it then uses {@link DepthFirstOrder} to find the reversePost 
 order which is the topological sorted order
  */
 public class TopologicalSort {

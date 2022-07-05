@@ -1,6 +1,6 @@
 package sorting;
 
-import tools.*;
+
 
 public class MinPQ<Key extends Comparable<Key>> {
     private Key[] pq;
