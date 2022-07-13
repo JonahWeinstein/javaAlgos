@@ -10,6 +10,8 @@ import java.util.LinkedList;
 
  */
 
+ // See Sedgewick 4th edition page 619 for eager implementation
+
 public class PrimsMSTLazy {
     // keeps track of which vertices are in the MST
     private boolean[] marked;
