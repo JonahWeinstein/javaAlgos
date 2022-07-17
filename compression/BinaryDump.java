@@ -1,6 +1,8 @@
 package compression;
 
 import tools.StdOut;
+
+
 /******************************************************************************
  *  Compilation:  javac BinaryDump.java
  *  Execution:    java BinaryDump n < file
@@ -56,9 +58,8 @@ public class BinaryDump {
     public static void main(String[] args) {
         int bitsPerLine = 16;
         if (args.length == 1) {
-            bitsPerLine = Integer.parseInt(args[0]);
+           bitsPerLine = Integer.parseInt(args[0]);
         }
-
         int count;
         for (count = 0; !BinaryStdIn.isEmpty(); count++) {
             if (bitsPerLine == 0) {

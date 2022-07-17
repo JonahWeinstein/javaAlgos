@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryDump",
+            "request": "launch",
+            "mainClass": "compression.BinaryDump",
+            "projectName": "javaAlgos_33e43ceb"
+        },
+        {
+            "type": "java",
             "name": "Launch DirectedDFS",
             "request": "launch",
             "mainClass": "graphs.DirectedDFS",
